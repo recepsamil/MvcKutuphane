@@ -1,0 +1,45 @@
+﻿@model MvcKutuphane.Models.Entity.TBLUYELER
+@{
+   ViewBag.Title = "UyeGetir";
+   Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("UyeGuncelle", "Uye", FormMethod.Post))
+{
+   <div style="margin-bottom:15px;"></div>
+   <div class="form-group">
+      @Html.LabelFor(uye => uye.ID)
+      @Html.TextBoxFor(uye => uye.ID, new { @class = "form-control" })
+      <br />
+      @*@Html.LabelFor(k => k.AD)*@
+      <label>Uye Adı</label>
+      @Html.TextBoxFor(uye => uye.AD, new { @class = "form-control" })
+      <br />
+      <label>Uye Soyadı</label>
+      @Html.TextBoxFor(uye => uye.SOYAD, new { @class = "form-control" })
+      <br />
+      <label>Kullanıcı Adı</label>
+      @Html.TextBoxFor(uye => uye.KULLANICIADI, new { @class = "form-control" })
+      <br />
+      <label>Şifre</label>
+      @Html.TextBoxFor(uye => uye.SIFRE, new { @class = "form-control" })
+      <br />
+      <label>Mail Adresi</label>
+      @Html.TextBoxFor(uye => uye.MAIL, new { @class = "form-control" })
+      <br />
+      <label>Üye Okulu</label>
+      @Html.TextBoxFor(uye => uye.OKUL, new { @class = "form-control" })
+      <br />
+      <label>Telefon</label>
+      @Html.TextBoxFor(uye => uye.TELEFON, new { @class = "form-control" })
+      <br />
+      <label>Fotoğraf Linki</label>
+      @Html.TextBoxFor(uye => uye.FOTOGRAF, new { @class = "form-control" })
+      <br />
+   </div>
+   <div>
+      <button class="btn btn-warning">Güncelle</button>
+   </div>
+}
+
+

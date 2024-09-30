@@ -1,0 +1,53 @@
+﻿@using MvcKutuphane.Models.Entity;
+@model List<TBLDUYURULAR>
+@{
+   ViewBag.Title = "Index";
+   Layout = "~/Views/Shared/Layout.cshtml";
+   string renk = "";
+}
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<h2>Duyurular</h2>
+
+<table class="table table-bordered">
+   <tr>
+      <th>DUYURU ID</th>
+      <th>KATEGORİ ADI</th>
+      <th>TARİH</th>
+      <th>SİL</th>
+      <th>İÇERİK</th>
+
+   </tr>
+
+   @foreach (var d in Model)
+   {
+      if (d.KATEGORİ == "Diğer")
+      {
+         renk = "bg-info text-white";
+      }
+
+      if (d.KATEGORİ == "Yeni Kitap")
+      {
+         renk = "bg-warning text-white";
+      }
+      if (d.KATEGORİ == "İletişim")
+      {
+         renk = "bg-danger text-white";
+      }
+      if (d.KATEGORİ == "Kitapları Geçiktirmeyin")
+      {
+         renk = "bg-primary text-white";
+      }
+
+      <tr class="@renk">
+         <td>@d.ID</td>
+         <td >@d.KATEGORİ</td>
+         <td>@Convert.ToDateTime(d.TARIH).ToString("dd/MM/yyyy")</td>
+         <td><a href="/Duyuru/DuyuruSil/@d.ID" class="btn btn-danger" style="width:60px;">Sil</a></td>
+         <td><a href="/Duyuru/DuyuruDetay/@d.ID" class="btn btn-default" style="background-color:darksalmon;">Detaylar</a></td>
+      </tr>
+   }
+</table>
+<a href="/Duyuru/YeniDuyuru/" class="btn btn-primary">Yeni Duyuru Ekle</a>
