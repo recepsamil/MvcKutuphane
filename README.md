@@ -22,6 +22,7 @@ Proje kapsamında aşağıdaki başlıkları uyguladım:
 Bu projede kazandığım deneyim, yazılım geliştirme yeteneklerimi daha da ileriye taşıdı ve gerçek dünyadaki projelerde ASP.NET MVC kullanımı konusunda kendime güvenimi artırdı.
 
 Youtube : https://lnkd.in/dfy4iQVn
+
 ![](https://media.licdn.com/dms/image/v2/D4D22AQFSZqQjfCYp1w/feedshare-shrink_1280/feedshare-shrink_1280/0/1727718624399?e=1733356800&v=beta&t=35CHgCyKF559AWLZiEe3nAf-BuA5IbzkAVCGOT0p3vU)
 ![resim1](https://media.licdn.com/dms/image/v2/D4D22AQHCIahPeb630g/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727718616012?e=1733356800&v=beta&t=3f9rRbecBkaH-FGpYNHZcFB-0CIzl0h117TeMB__TrM)
 ![resim1](https://media.licdn.com/dms/image/v2/D4D22AQEL47GNce9sHQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727718616804?e=1733356800&v=beta&t=yBsNTd1blMg1MxuUUdzTUEt5P4OZ3aD10kJa2xw0K_Q)
