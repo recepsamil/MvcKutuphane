@@ -23,7 +23,7 @@ Bu projede kazandığım deneyim, yazılım geliştirme yeteneklerimi daha da il
 
 Youtube : https://lnkd.in/dfy4iQVn
 
-![](https://media.licdn.com/dms/image/v2/D4D22AQFSZqQjfCYp1w/feedshare-shrink_1280/feedshare-shrink_1280/0/1727718624399?e=1733356800&v=beta&t=35CHgCyKF559AWLZiEe3nAf-BuA5IbzkAVCGOT0p3vU)
+![resim1](https://github.com/recepsamil/MvcKutuphane/blob/main/Mvc%20K%C3%BCt%C3%BCphane/screencapture-localhost-56820-Vitrin-Index-2024-09-30-20_28_41.png)
 ![resim1](https://media.licdn.com/dms/image/v2/D4D22AQHCIahPeb630g/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727718616012?e=1733356800&v=beta&t=3f9rRbecBkaH-FGpYNHZcFB-0CIzl0h117TeMB__TrM)
 ![resim1](https://media.licdn.com/dms/image/v2/D4D22AQEL47GNce9sHQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727718616804?e=1733356800&v=beta&t=yBsNTd1blMg1MxuUUdzTUEt5P4OZ3aD10kJa2xw0K_Q)
 ![resim1](https://media.licdn.com/dms/image/v2/D4D22AQEXtREp1qXSGA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727718617043?e=1733356800&v=beta&t=L5jrjEOyQoYvm6htSFeP5kRDnZY4ppOsmbgWpOdnNMU)
